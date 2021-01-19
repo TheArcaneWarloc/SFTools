@@ -1,0 +1,893 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"race"
+		]
+	},
+	"race": [
+		{
+			"name": "Androids",
+			"source": "CRB",
+			"page": 42,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Android",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"int": 2,
+					"cha": -2
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common",
+				"android"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Androids are Medium humanoids with the android subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Constructed",
+					"entries": [
+						"For effects targeting creatures by type, androids count as both humanoids and constructs (whichever effect is worse). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, poison, and sleep, unless those effects specifically target constructs. In addition, androids do not breathe or suffer the normal environmental effects of being in a vacuum."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Exceptional Vision",
+					"entries": [
+						"Androids have {@specialability low-light vision} and {@specialability darkvision}. As a result, they can see in dim light as if it were normal light, and they can see with no light source at all to a range of 60 feet in black and white only. (See low-light vision and darkvision on pages 264 and 263.)"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Flat Affect",
+					"entries": [
+						"Androids find emotions confusing and keep them bottled up. They take a –2 penalty to {@skill Sense Motive} checks, but the DCs of Sense Motive checks attempted against them increase by 2."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Upgrade Slot",
+					"entries": [
+						"Androids have a single armor upgrade slot in their bodies. Regardless of whether androids are wearing physical armor, they can use this slot to install any one armor upgrade that could be installed into light armor."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Humans",
+			"source": "CRB",
+			"page": 44,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Human",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2,
+						"count": 1
+					}
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common"
+			],
+			"entries": [
+				{
+					"name": "Bonus Feat",
+					"entries": [
+						"For effects targeting creatures by type, androids count as both humanoids and constructs (whichever effect is worse). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, poison, and sleep, unless those effects specifically target constructs. In addition, androids do not breathe or suffer the normal environmental effects of being in a vacuum."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bonus Feat",
+					"entries": [
+						"Humans select one extra feat at 1st level."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Skilled",
+					"entries": [
+						"Humans gain an additional skill rank at 1st level and each level thereafter."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Kasathas",
+			"source": "CRB",
+			"page": 46,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Kasatha",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"str": 2,
+					"wis": 2,
+					"int": -2
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common",
+				"kasatha"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Kasathas are Medium humanoids with the kasatha subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Desert Stride",
+					"entries": [
+						"Kasathas can move through nonmagical difficult terrain in deserts, hills, and mountains at their normal speed."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Four-Armed",
+					"entries": [
+						"Kasathas have four arms, which allows them to wield and hold up to four hands’ worth of weapons and equipment. While their multiple arms increase the number of items they can have at the ready, it doesn't increase the number of attacks they can make during combat."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Historian",
+					"entries": [
+						"Due to their in-depth historical training and the wide-ranging academic background knowledge they possess, kasathas receive a +2 racial bonus to {@skill Culture} checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Grace",
+					"entries": [
+						"Kasathas receive a +2 racial bonus to {@skill Acrobatics} and {@skill Athletics} checks."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Lashuntas",
+			"source": "CRB",
+			"page": 48,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Lashunta",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"cha": 2
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common",
+				"lashunta"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"type": "entries",
+					"entries": [
+						"Lashuntas are Medium humanoids with the lashunta subtype."
+					]
+				},
+				{
+					"name": "Lashunta Magic",
+					"type": "entries",
+					"entries": [
+						"Lashuntas gain the following spell-like abilities:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "At will:",
+									"entry": "{@spell daze}, {@spell psychokinetic hand}"
+								},
+								{
+									"type": "item",
+									"name": "1/day",
+									"entry": "{@spell detect thoughts}"
+								}
+							]
+						},
+						"See Spell-like Abilities on page 262. The caster level for these effects is equal to the lashunta's level."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"Lashuntas can mentally communicate with any creatures within 30 feet with whom they share a language. Conversing telepathically with multiple creatures simultaneously is just as difficult as listening to multiple people speaking."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Student",
+					"entries": [
+						"Lashuntas love to learn, and they receive a +2 racial bonus to any two skills of their choice"
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Korasha",
+					"source": "CRB",
+					"page": 48,
+					"entries": [
+						{
+							"name": "Dimorphic",
+							"type": "entries",
+							"entries": [
+								"All lashuntas gain +2 Charisma at character creation. Korasha lashuntas are muscular (+2 Strength at character creation) but often brash and unobservant (–2 Wisdom at character creation)."
+							]
+						}
+					]
+				},
+				{
+					"name": "Damaya",
+					"source": "CRB",
+					"page": 48,
+					"entries": [
+						{
+							"name": "Dimorphic",
+							"type": "entries",
+							"entries": [
+								"All lashuntas gain +2 Charisma at character creation. Damaya lashuntas are typically clever and well-spoken (+2 Intelligence at character creation) but somewhat delicate (–2 Constitution at character creation)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Shirrens",
+			"source": "CRB",
+			"page": 50,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Shirren",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"wis": 2,
+					"cha": -2
+				}
+			],
+			"HP": 6,
+			"languages": [
+				"common",
+				"shirren"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Shirrens are Medium humanoids with the shirren subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Blindsense",
+					"entries": [
+						"Shirrens’ sensitive antennae grant them blindsense (vibration)—the ability to sense vibrations in the air—out to 30 feet. A shirren ignores the Stealth bonuses from any form of visual camouflage, invisibility, and the like when attempting a Perception check opposed by a creature’s Stealth check. Even on a successful Perception check, any foe that can’t be seen still has total concealment (50% miss chance) against a shirren, and the shirren still has the normal miss chance when attacking foes that have concealment. A shirren is still flatfooted against attacks from creatures it can’t see."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Communalism",
+					"entries": [
+						"Shirrens are used to working with others as part of a team. Once per day, as long as an ally is within 10 feet, a shirren can roll a single attack roll or skill check twice and take the higher result. "
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cultural Fascination",
+					"entries": [
+						"Shirrens are eager to learn about new cultures and societies. Shirrens receive a +2 racial bonus to Culture and Diplomacy checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"Shirrens can communicate telepathically with any creatures within 30 feet with whom they share a language. Conversing telepathically with multiple creatures simultaneously is just as difficult as listening to multiple people speak."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Vesk",
+			"source": "CRB",
+			"page": 52,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Vesk",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 2,
+					"int": -2
+				}
+			],
+			"HP": 6,
+			"languages": [
+				"common",
+				"shirren"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Vesk are Medium humanoids with the vesk subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Armor Savant",
+					"entries": [
+						"Vesk use armor in a way that complements their uniquely sturdy physiology. When wearing armor, they gain a +1 racial bonus to AC. When they’re wearing heavy armor, their armor check penalty is 1 less severe than normal."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fearless",
+					"entries": [
+						"Vesk receive a +2 racial bonus to saving throws against fear effects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"Vesk can see in dim light as if it were normal light. For more details, see page 264."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Weapons",
+					"entries": [
+						"Vesk are always considered armed. They can deal 1d3 lethal damage with unarmed strikes and the attack doesn’t count as archaic. Vesk gain a unique weapon specialization with their natural weapons at 3rd level, allowing them to add 1–1/2 × their character level to their damage rolls for their natural weapons (instead of just adding their character level, as usual)."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Ysoki",
+			"source": "CRB",
+			"page": 54,
+			"size": "S",
+			"type": "Humanoid",
+			"subtype": "Ysoki",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"int": 2,
+					"str": -2
+				}
+			],
+			"HP": 2,
+			"languages": [
+				"common",
+				"ysoki"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Ysoki are Small humanoids with the ysoki subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cheek Pouches",
+					"entries": [
+						"Ysoki can store up to 1 cubic foot of items weighing up to 1 bulk in total in their cheek pouches, and they can transfer a single object between hand and cheek as a swift action. A ysoki can disgorge the entire contents of his pouch onto the ground in his square as a move action that does not provoke an attack of opportunity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Ysoki can see up to 60 feet in the dark. See page 263 for more information."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Moxie",
+					"entries": [
+						"Ysoki are scrappy and nimble even when the odds are against them. A ysoki can stand from prone as a {@action swift action}. Additionally, when off-kilter (see page 276), a ysoki does not take the normal penalties to attacks or gain the flat-footed condition. When attempting an {@skill Acrobatics} check to tumble through the space of an opponent at least one size category larger than himself, a ysoki receive a +5 racial bonus to the check."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Scrounger",
+					"entries": [
+						"Ysoki receive a +2 racial bonus to {@skill Engineering}, {@skill Stealth}, and {@skill Survival} checks. "
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Dwarves",
+			"source": "CRB",
+			"page": 506,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Dwarf",
+			"speed": {
+				"land": 20
+			},
+			"ability": [
+				{
+					"con": 2,
+					"wis": 2,
+					"cha": -2
+				}
+			],
+			"HP": 6,
+			"languages": [
+				"common",
+				"dwarvish"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Dwarves are Medium humanoids with the dwarf subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Dwarves can see up to 60 feet in the dark."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Slow but Steady",
+					"entries": [
+						"Dwarves have a land speed of 20 feet, which is never modified when they are encumbered or wearing heavy armor. They also gain a +2 racial bonus to saving throws against poisons, spells, and spell-like abilities, and when standing on the ground they gain a +4 racial bonus to their KAC against bull rush and trip combat maneuvers."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stonecunning",
+					"entries": [
+						"Dwarves gain a +2 bonus to {@skill Perception} checks to notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Traditional Enemies",
+					"entries": [
+						"Dwarves still train to fight their ancient enemies. A dwarf gains a +1 racial bonus to attack rolls against a creature with the goblinoid or orc subtype and a +4 racial bonus to AC against an attack from a creature with the giant subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Weapon Familiarity",
+					"entries": [
+						"Dwarves are proficient with basic and advanced melee weapons and gain specialization with those weapons at 3rd level."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Elves",
+			"source": "CRB",
+			"page": 507,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": "Elf",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"int": 2,
+					"con": -2
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common",
+				"elvish"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						" Elves are Medium humanoids with the elf subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Elven Immunities",
+					"entries": [
+						"Elves are immune to magic sleep effects and receive a +2 racial bonus to saving throws against enchantment spells and effects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Elven Magic",
+					"entries": [
+						"Elves receive a +2 racial bonus to caster level checks to overcome spell resistance. In addition, elves receive a +2 racial bonus to {@skill Mysticism} skill checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"Elves receive a +2 racial bonus to {@skill Perception} skill checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"Elves can see in dim light as if it were normal light. See Vision and Light on page 261."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Gnomes",
+			"source": "CRB",
+			"page": 508,
+			"size": "S",
+			"type": "Humanoid",
+			"subtype": "Gnome",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"str": -2
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common",
+				"gnomish"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Gnomes are Small humanoids with the gnome subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Curious",
+					"entries": [
+						"Gnomes receive a +2 racial bonus to {@skill Culture} checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Eternal Hope",
+					"entries": [
+						"Gnomes receive a +2 racial bonus to saving throws against fear and despair effects. Once per day, after rolling a 1 on a d20, the gnome can reroll and use the second result (see page 243)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gnome Magic",
+					"type": "entries",
+					"entries": [
+						"Gnomes gain the following spell-like abilities (see page 262):",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "1/day",
+									"entry": "{@spell dancing lights}, {@spell ghost sound} and {@spell token spell}"
+								}
+							]
+						},
+						"The caster level for these effects is equal to the gnome’s character level. In addition, gnomes get a +2 racial saving throw bonus against illusion spells and effects."
+					]
+				},
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"Gnomes can see in dim light as if it were normal light. See Vision and Light on page 261."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Feychild",
+					"source": "CRB",
+					"page": 508,
+					"entries": [
+						{
+							"name": "Dimorphic",
+							"type": "entries",
+							"entries": [
+								"A feychild gnome gains +2 Charisma."
+							]
+						}
+					]
+				},
+				{
+					"name": "Bleachling",
+					"source": "CRB",
+					"page": 508,
+					"entries": [
+						{
+							"name": "Dimorphic",
+							"type": "entries",
+							"entries": [
+								"A bleachling gnome receives +2 Intelligence."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Half-Elves",
+			"source": "CRB",
+			"page": 509,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": [
+				"Elf",
+				"Human"
+			],
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2,
+						"count": 1
+					}
+				}
+			],
+			"HP": 4,
+			"languages": [
+				"common",
+				"elvish"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Half-elves are Medium humanoids with both the elf and human subtypes"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Adaptability",
+					"entries": [
+						"Half-elves receive Skill Focus as a bonus feat at 1st level."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Elven Blood",
+					"entries": [
+						"Half-elves are immune to magic sleep effects and receive a +2 racial bonus to saving throws against enchantment spells and effects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"type": "entries",
+					"entries": [
+						"Half-elves receive a +2 racial bonus to {@skill Perception} skill checks."
+					]
+				},
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"Half-elves can see dim light as if it were normal light. See Vision and Light on page 261."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Half-Orcs",
+			"source": "CRB",
+			"page": 510,
+			"size": "M",
+			"type": "Humanoid",
+			"subtype": [
+				"Orc",
+				"Human"
+			],
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2,
+						"count": 1
+					}
+				}
+			],
+			"HP": 6,
+			"languages": [
+				"common",
+				"orcish"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Half-orcs are Medium humanoids with both the human and orc subtypes."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Half-orcs can see up to 60 feet in the dark."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Intimidating",
+					"entries": [
+						"Half-orcs receive a +2 racial bonus to {@skill Intimidate} skill checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Orc Ferocity",
+					"type": "entries",
+					"entries": [
+						" Once per day, a half-orc brought to 0 Hit Points but not killed can fight on for 1 more round. The half-orc drops to 0 HP and is dying (following the normal rules for death and dying) but can continue to act normally until the end of his next turn, when he becomes unconscious as normal. If he takes additional damage before this, he ceases to be able to act and falls unconscious."
+					]
+				},
+				{
+					"name": "Self-Sufficient",
+					"entries": [
+						"Half-orcs receive a +2 racial bonus to {@skill Survival} skill checks."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Halflings",
+			"source": "CRB",
+			"page": 511,
+			"size": "S",
+			"type": "Humanoid",
+			"subtype": "Halfling",
+			"speed": {
+				"land": 30
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 2,
+					"str": -2
+				}
+			],
+			"HP": 2,
+			"languages": [
+				"common",
+				"halfling"
+			],
+			"entries": [
+				{
+					"name": "Size and Type",
+					"entries": [
+						"Halflings are Small humanoids with the halfling subtype."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Halfling Luck",
+					"entries": [
+						"Halflings receive a +1 racial bonus to all saving throws. This bonus increases to +3 against fear effects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"Halflings receive a +2 racial bonus to {@skill Perception} skill checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sneaky",
+					"type": "entries",
+					"entries": [
+						"Halflings receive a +2 racial bonus to {@skill Stealth} checks. In addition, halflings reduce the penalty for using Stealth while moving by 5, and reduce the Stealth check penalty for sniping by 10."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"Halflings receive a +2 racial bonus to {@skill Acrobatics} and {@skill Athletics} skill checks"
+					],
+					"type": "entries"
+				}
+			]
+		}
+	]
+}
