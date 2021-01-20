@@ -166,6 +166,117 @@
 					"page": 101
 				}
 			],
+			"classChoiceTitle": "Stellar Revelations",
+			"classChoiceList": [
+				{
+					"name": "Black Hole",
+					"featureType": "SU",
+					"abilitySubType": "Graviton",
+					"level": 1,
+					"entries": [
+						"When you’re fully graviton-attuned, as a standard action, you can pull any number of creatures within 20 feet of you closer. You choose which creatures are affected and which ones aren’t. Each target must succeed at a Fortitude save or be pulled 10 feet toward you. The range of this revelation and the distance pulled increase by 5 feet at 5th level and every 4 levels thereafter. Solid objects do not block this ability, but any creature that runs into a solid object ceases moving closer to you. Creatures moved by this ability do not provoke attacks of opportunity from this movement. After you use this revelation, you immediately become unattuned. Black hole functions as a zenith revelation for the purposes of abilities that reference them."
+					],
+					"source": "CRB",
+					"page": 103
+				},
+				{
+					"name": "Supernova",
+					"featureType": "SU",
+					"abilitySubType": "Photon",
+					"level": 1,
+					"entries": [
+						"When you’re fully photon-attuned, as a standard action, you can deal 1d6 fire damage plus 1d6 additional fire damage per solarian level to all creatures within 10 feet of you. A creature that succeeds at a Reflex save takes half damage. At 9th level, you can increase the radius to 15 feet, and at 17th level, you can increase the radius to 20 feet. After you use this revelation, you immediately become unattuned. Supernova functions as a zenith revelation for the purposes of abilities that reference them. "
+					],
+					"source": "CRB",
+					"page": 103
+				},
+				{
+					"name": "Dark Matter",
+					"featureType": "SU",
+					"abilitySubType": "Graviton",
+					"level": 2,
+					"entries": [
+						"As a move action, you can draw on the properties of dark matter to increase your density, allowing you to resist physical damage. You gain damage reduction 1/—. This increases to DR 2/— at 6th level and increases by 1 again every 3 solarian levels thereafter. This benefit lasts for 1 round or until you leave graviton mode.",
+						"When you are attuned or fully attuned, your DR from dark matter is equal to half your solarian level."
+					],
+					"source": "CRB",
+					"page": 104
+				},
+				{
+					"name": "Flare",
+					"featureType": "SU",
+					"abilitySubType": "Photon",
+					"level": 2,
+					"entries": [
+						"As a move action, you can shed light in a 30-foot radius for 1 minute. You choose dim, normal, or bright light each time you activate this revelation. As a standard action, you can create a flash of brilliant light, forcing one creature within 30 feet to succeed at a Reflex save or be blinded for 1 round. Once you’ve targeted a creature with flare, you can’t target it with this revelation again for 10 minutes. Blind or sightless creatures are not affected by this use of this revelation.",
+						"When you create a flash of light as a standard action and you are attuned or fully attuned, you can instead choose to make all enemies within range dazzled for 1 round (no save)."
+					],
+					"source": "CRB",
+					"page": 104
+				},
+				{
+					"name": "Gravity Anchor",
+					"featureType": "SU",
+					"abilitySubType": "Graviton",
+					"level": 2,
+					"entries": [
+						"As a move action, you can form a gravitational bond between yourself and either the surface you’re standing on or the objects you are holding. This grants you a +4 bonus to your AC against bull rush, reposition, and trip combat maneuvers if you choose the surface underfoot, or against disarm combat maneuvers if you choose objects. The bonus lasts for 1 round or until you leave graviton mode. You can have only one gravity anchor active at a time",
+						"When you are attuned or fully attuned, you can activate this revelation as a reaction when targeted by a bull rush, disarm, reposition, or trip combat maneuver, in which case it defends against only that attack."
+					],
+					"source": "CRB",
+					"page": 103
+				},
+				{
+					"name": "Gravity Boost",
+					"featureType": "SU",
+					"abilitySubType": "Graviton",
+					"level": 2,
+					"entries": [
+						"You can increase or reduce the gravitational attraction between yourself and the terrain around you. You can add a bonus equal to one-third your solarian level (minimum +1) to {@skill Athletics} checks to climb, jump, or swim as part of the action you take to attempt the skill check. In addition, as a reaction when you are falling, you can reduce the falling damage you take by half. At 6th level, you can move along vertical surfaces and even upside down along ceilings for 1 round. This functions as spider climb, but it leaves your hands free and you can also run. You must end your movement on a surface that can support you normally. If you end your movement while you are standing on a vertical surface or ceiling, you fall unless you succeed at an Athletics check to climb to remain in position."
+					],
+					"source": "CRB",
+					"page": 103
+				},
+				{
+					"name": "Gravity Hold",
+					"featureType": "SU",
+					"abilitySubType": "Graviton",
+					"level": 2,
+					"entries": [
+						"This revelation allows you to move objects at a distance as per psychokinetic hand (see page 370).",
+						"When you are attuned or fully attuned, you can use the psychokinetic hand ability of your gravity hold to immobilize, lift, or move a Medium or smaller creature. The creature can attempt a Fortitude save to negate the effect. While under this effect, the target creature cannot move, but can take any other normal actions. This ability follows all of the restrictions of the spell other than the weight limit, but you can’t lift a creature higher than 5 feet off the ground. When you spend a standard action concentrating to maintain the gravity hold, the target can attempt a new save to end the effect. Once a creature successfully saves against this ability, it becomes immune to further uses of this revelation for 24 hours."
+					],
+					"source": "CRB",
+					"page": 104
+				},
+				{
+					"name": "Plasma Sheath",
+					"featureType": "SU",
+					"abilitySubType": "Photon",
+					"level": 2,
+					"entries": [
+						"As a move action, you can cause all of your melee attacks to deal fire damage instead of their normal damage type. (The attacks are still made against the target’s EAC or KAC as normal for the weapon.) This benefit lasts for 1 round or until you leave photon mode.",
+						"When you are attuned or fully attuned, your attacks with plasma sheath deal additional fire damage equal to half your level."
+					],
+					"source": "CRB",
+					"page": 104
+				},
+				{
+					"name": "Radiation",
+					"featureType": "SU",
+					"abilitySubType": "Photon",
+					"level": 2,
+					"entries": [
+						"As a standard action, you can wreathe yourself in stellar fire and make a charge without the penalties (see page 248).",
+						"When you are attuned or fully attuned, you can substitute a bull rush for the melee attack at the end of the charge. Whether or not you succeed at the bull rush, the target takes 2d6 fire damage (Reflex half). This damage increases by 1d6 at 6th level and every 2 levels thereafter. "
+					],
+					"source": "CRB",
+					"page": [
+						104,
+						105
+					]
+				}
+			],
 			"fluff": [
 				{
 					"name": "Solarian",
